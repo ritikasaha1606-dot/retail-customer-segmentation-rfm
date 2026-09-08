@@ -19,5 +19,5 @@ Using SQL (SQLite), I cleaned and queried ~400K raw transaction records, calcula
 The analysis reveals significant revenue concentration: Best Customers make up only 20.2% of the customer base but generate 72.5% of total revenue, while Lost/Churned customers represent 31.9% of the base but contribute just 3.9% of revenue. This concentration means the business's financial health is highly dependent on retaining a relatively small group of high-value customers. I'd recommend prioritizing a dedicated retention program (loyalty tiers, early product access, personalized outreach) for the Best Customers segment, since losing even a small fraction of this group would have an outsized revenue impact. Separately, given the low revenue contribution from Lost/Churned customers, re-engagement spend should be modest and tightly measured (e.g., a single low-cost win-back email campaign) rather than a major investment, since the data suggests limited return from reactivating this group at scale.
 
 ## Files
-- `rfm_analysis.ipynb` — full notebook (SQL queries, Python segmentation logic)
+- `Retail.ipynb` — full notebook (SQL queries, Python segmentation logic)
 - `rfm_results.csv` — final customer-level RFM scores and segment labels
